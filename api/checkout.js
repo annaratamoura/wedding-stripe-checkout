@@ -23,7 +23,7 @@ module.exports = async function handler(req, res) {
       line_items: [
         {
           price_data: {
-            currency: "usd",
+            currency: "brl",
             product: "prod_TuYH55zmMnwzij",
             unit_amount: Math.round(amount * 100),
           },
